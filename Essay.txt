@@ -1,0 +1,8 @@
+What is the difference of state and props in react js
+
+
+States are mostly used to update and rerendered all the components inside the webpage to present
+a new values and informations that the website required to show for the user which means state determines 
+the behavior of all the components inside a webpage. Props are read-only components, it uses to pass data from
+one component to the other. It is similar in other programming languages as a function parameter that is also used
+to pass data for a certain function. 
