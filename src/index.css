@@ -91,3 +91,30 @@ form button{
   background-color: white;
   border: 1px solid lightgrey;
 }
+
+.todo-items h1{
+  padding: 10px;
+  color: black;
+}
+
+.todo-items button{
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 20px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.todo-items .prio{
+  background-color: red;
+}
+
+.todo-items .finish{
+  background-color: gray;
+}
+
+.todo-items .remove{
+  background-color: black;
+}
