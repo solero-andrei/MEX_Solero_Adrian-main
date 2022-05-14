@@ -81,7 +81,6 @@ function App() {
      {(user.username !="") ? (
        <div className="welcome">
          <h2>Welcome, list all your today's tasks!</h2>
-         
          <TodoForm addTodo={addTodo}/>
        {sortedTodos.map((todo) => {
         return (
@@ -89,7 +88,7 @@ function App() {
         )
        })}
         <br></br>
-         <button id='btnlogout' onClick={Logout}>logout</button>
+         <button id='btnlogout' onClick={Logout}>Logout</button>
        </div>
      ):(
       <LoginForm Login={Login} error={error} />

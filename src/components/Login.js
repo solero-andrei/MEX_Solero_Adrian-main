@@ -11,19 +11,21 @@ function LoginForm({Login, error}) {
         <form  onSubmit={submitHandler}>
             <div className='form-inner'>
             <h2>Todo Login</h2>
-                   <div className='form-group'>
-                    <label htmlFor='username'>Username:</label>
+              <div className='form'>
+              <div className='form-group'>
+                    <label htmlFor='username'>Username</label><br />
                     <input type='text' name='username' id='username' 
                     onChange={e=> setDetails({...details,username:e.target.value})} value={details.username}/>
                    </div>
 
                    <div className='form-group'>
-                    <label htmlFor='password'>password:</label>
+                    <label htmlFor='password'>Password</label><br />
                     <input type='password' name='password' id='password' 
                     onChange={e=> setDetails({...details,password:e.target.value})} value={details.password}/>
 
                    </div>
                    <input type='submit' className='btnlogin' value='LOGIN'></input>
+              </div>
             </div>
         </form>
     </div>
